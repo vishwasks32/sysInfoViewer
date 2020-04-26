@@ -1,0 +1,16 @@
+This is System Information Viewer for Slackware(Currently).
+Built using BASH Shell Scripts and Python2.7 
+GTK+ Frontend
+
+Developed by Vishwas K Singh
+Email vishwasks32@gmail.com
+
+24-04-2020
+VERSION: 0.1
+TODO:
+* Improve the UI alignment Software Tab
+* Populate the Hardware and Devices Tab
+* Include User information tab like Mugshot
+* Develop a QT interface
+* extend for other Distributions
+* move to python3 and GTK3
