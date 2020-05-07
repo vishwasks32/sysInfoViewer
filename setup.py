@@ -35,9 +35,9 @@ setup(
     license = "GPL-3+",
     keywords = "System Information Viewer",
     url = "https://github.com/vishwasks32/sysInfoViewer",
-    packages=['sysInfoViewer','bin'],
+    packages=['sysInfoViewer'],
     package_data={'sysInfoViewer':['images/*.png']},
-    entry_points={'gui_scripts':['sysInfoViewer = bin.sysInfoViewer']},
+    entry_points={'gui_scripts':['sysInfoViewer = sysInfoViewer.sysInfoView.__main__']},
     long_description=read('README'),
     classifiers=[
         "Development Status :: 4 - Beta",
