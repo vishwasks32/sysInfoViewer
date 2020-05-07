@@ -1,0 +1,15 @@
+07-05-2020
+* Populate the Hardware and Devices Tab
+* Include User information tab like Mugshot
+* Develop a QT interface
+* extend for other Distributions
+
+24-04-2020
+TODO:
+* Improve the UI alignment Software Tab
+* Populate the Hardware and Devices Tab
+* Include User information tab like Mugshot
+* Develop a QT interface
+* extend for other Distributions
+* move to python3 and GTK3
+* Settingup and installation handling

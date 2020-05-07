@@ -1,0 +1,13 @@
+07-05-2020
+VERSION: 1
+New Changes in this release:
+* Now codebase with Python3 and GTK3
+* UI alignment in both tabs proper
+* Tabs show Software and Processor Information
+
+
+24-04-2020
+VERSION: 0.1
+Features in the release:
+* Code base on Python2.7 and GTK2
+* Bash script based implementation for system information

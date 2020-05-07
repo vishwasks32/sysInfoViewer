@@ -1,0 +1,9 @@
+[Desktop Entry]
+_Name=System Information Viewer
+_Comment=View System Information
+Categories=GNOME;GTK;Settings;X-GNOME-Settings-Panel;DesktopSettings;X-XFCE;
+Keywords=Viewer;System;Information;
+Exec=sysInfoView
+Icon=sysInfoViewIcon
+Terminal=false
+Type=Application
