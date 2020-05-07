@@ -1,9 +1,10 @@
 [Desktop Entry]
-_Name=System Information Viewer
-_Comment=View System Information
-Categories=GNOME;GTK;Settings;X-GNOME-Settings-Panel;DesktopSettings;X-XFCE;
+Version=1.0
+Name=System Information Viewer
+Comment=View System Information
+Categories=Utility;X-XFCE;X-Xfce-Toplevel;
 Keywords=Viewer;System;Information;
-Exec=sysInfoView
-Icon=sysInfoViewIcon
+Exec=sysInfoViewer
+Icon=gtk-about
 Terminal=false
 Type=Application
