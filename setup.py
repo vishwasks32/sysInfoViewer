@@ -17,7 +17,7 @@
 #   with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import os
-from setuptools import setup
+from setuptools import setup, find_packages
 
 # Utility function to read the README file.
 # Used for the long_description.  It's nice, because now 1) we have a top level
@@ -35,9 +35,9 @@ setup(
     license = "GPL-3+",
     keywords = "System Information Viewer",
     url = "https://github.com/vishwasks32/sysInfoViewer",
-    packages=['sysInfoViewer'],
+    packages=find_packages(),
     package_data={'sysInfoViewer':['images/*.png']},
-    entry_points={'gui_scripts':['sysInfoViewer = sysInfoViewer.sysInfoView.__main__']},
+    entry_points={'gui_scripts':['sysInfoViewer = sysInfoViewer.__init__:main']},
     long_description=read('README'),
     classifiers=[
         "Development Status :: 4 - Beta",
