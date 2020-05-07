@@ -42,7 +42,9 @@ setup(
     classifiers=[
         "Development Status :: 4 - Beta",
         "Topic :: Utilities",
-        "License :: OSI Approved :: GPL License",
+        "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+        "Intended Audience :: Developers",
+        "Intended Audience :: End Users/Desktop",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.7",
